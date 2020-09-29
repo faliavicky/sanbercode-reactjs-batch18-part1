@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index{
+    background-image: url(../img/pattern.jpg);
+}
+.kotakmenuindex{
+    top: 0;
+    width: 100%;
+    display: inline-flex;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 730px;
+}
+ul li{
+    display: inline-flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(23, 57, 121);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#logo{
+    margin-left: 20px;
+}
+
+.contentindex{
+    background-color: #ffffff;
+    width: 800px;
+    margin: 0 auto;
+}
+.titlecontent{
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    color: rgb(23, 57, 121);
+    z-index: 0;
+}
+#article-list{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    height: auto;
+}
+#article-list div{
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(23, 57, 121);
+}
+#article-list div a{
+    text-decoration: none;
+    font-size: 15px;
+}
+#article-list div p{
+    margin-top: 8px;
+    font-size: 12px;
+}
+.indexfooter{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    height: 50px;
+}
+.indexfooter h5{
+    padding-top: 18px;
+}
