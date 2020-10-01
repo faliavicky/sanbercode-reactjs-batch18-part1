@@ -52,6 +52,7 @@ var pisah= kalimat.split(" ");
 console.log(pisah);
 
 
+
 //soal 5
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
 //jawaban soal 5
